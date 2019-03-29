@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+	background: #000000;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 300;
+}
+
+/*contains all the navigation*/
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+/*for the whole header*/
+/* #94B8FF - light blue */
+header {
+	background: #94B8FF;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/*For the title of my website */
+.logo {
+	font-family: 'Carter One', cursive;
+	float: left;
+	padding: 10px 0;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.n {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 15px;
+
+	position: relative;
+}
+
+nav a {
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+nav a:visited {
+	color: #333;
+}
+
